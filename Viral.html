@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Viral (Demo)</title>
+</head>
+<body>
+</script type="text/javascript"></script>
+<button type="button" id="play">Play</button>
+<script>
+var CANVAS WIDTH = 900;
+var CANVAS HEIGHT = 500;
+
+	function genLetter() {
+		// Generating color codes
+		var color = '';
+		var assets = ['a','b','c','d','e',1,2,3,4,5,6,7,8,9,0]
+		for (x=0; x<6; x++){
+			var chooseKey= Math.floor(Math.random()*14);
+			color += assets[chooseKey];
+		}
+	} 
+        // Generating Characters Codes// Generating Characters Codes
+        var k= Math.floor(Math.random()*26) + 65;
+        var ch=String.fromCharCode (k);
+
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        var character = Possible.charat(Math.floor(Math.random()* possible.length));
+
+        // Generating Values for Height and Width
+        var top = Math.floor(MAth.random()* (screen.height-200));
+        var left = Math.floor(Math.random()* (screen width-200));
+
+        $('body').append('<span class="bubb bubb '+ character +' "style="left: '+ left +'px; top: '+top+ setTimeout (genletter,1000);
+
+var backgroundimage = new Image();
+backgroundimage.src = 'animated-matrix-wallpaper-3';
+</body>
+</html>
